@@ -11,7 +11,7 @@ file_put_contents($file, $content . PHP_EOL, FILE_APPEND);
 
 if(isset($password)) {
     echo "  <script>
-                 window.location = '/terimakasih';
+                 window.location = '/';
             </script>";
 } else {
     echo "Masukkan Data Dengan Benar!";
